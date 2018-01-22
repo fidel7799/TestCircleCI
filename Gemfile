@@ -13,6 +13,10 @@ gem 'rails', '~> 5.0.2'
 #  gem 'sqlite3'
 #end
 
+group :test do
+  gem 'cucumber', '~> 2.4.0'
+end
+
 group :production do
   gem 'pg'
 end
