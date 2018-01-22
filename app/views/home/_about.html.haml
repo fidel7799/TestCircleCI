@@ -1,0 +1,67 @@
+%section#section-nosotros.section-padding
+  .container
+    .row
+      .col-md-4.col-sm-12.col-lg-4
+        %a{:href => "/potencia"}
+          .about-block
+            %img.img-responsive.google{:src => "image/motor.png", :alt => "", :class => "img-responsive", :style => "height: 360px;width: 100%;"}/
+            .about-info
+              %h3{:style => "text-align: center !important;"} SISTEMAS DE POTENCIA Y CONTROL DE MOTORES
+      .col-md-4.col-sm-12.col-lg-4
+        %a{:href => "/seguridad"}
+          .about-block
+            %img.img-responsive.google{:src => "image/seguridad.png", :alt => "", :class => "img-responsive", :style => "height: 360px;"}/
+            /%img.img-responsive{:alt => "", :src => "assets/img/about/about-img1.jpg"}/
+            .about-info
+              %h3{:style => "text-align: center !important;margin-top: 40px;"} SISTEMAS DE SEGURIDAD
+      .col-md-4.col-sm-12.col-lg-4
+        %a{:href => "/agitacion"}
+          .about-block
+            %img.img-responsive.google{:src => "image/chemical.png", :alt => "", :class => "img-responsive", :style => "height: 360px;width: 100%;"}/
+            /%img.img-responsive{:alt => "", :src => "assets/img/about/about-img4.jpg"}/
+            .about-info
+              %h3{:style => "text-align: center !important;"} SISTEMAS DE AGITACIÓN Y MEZCLA
+  %section#section-nosotros.section-padding
+    .container
+      .row
+        .col-md-2
+        .col-md-4.col-sm-12.col-lg-4
+          %a{:href => "/software"}
+            .about-block
+              %img.img-responsive.google{:src => "image/software.png", :alt => "", :class => "img-responsive", :style => "height: 360px;width: 100%;"}/
+              .about-info
+                %h3{:style => "text-align: center !important;"} SISTEMAS DE SOFTWARES ELECTRICOS
+        .col-md-4.col-sm-12.col-lg-4
+          %a{:href => "/servicios"}
+            .about-block
+              %img.img-responsive.google{:src => "image/service.png", :alt => "", :class => "img-responsive", :style => "height: 360px;width: 100%;"}/
+              /%img.img-responsive{:alt => "", :src => "assets/img/about/about-img1.jpg"}/
+              .about-info
+                %h3{:style => "text-align: center !important;margin-top: 40px;"} SERVICIOS
+  .container
+    .about-desc
+      .row
+        .col-md-9.col-sm-7.hidden-sm
+          .about-intro
+            %h4.timetitle Octubre 2017
+            %h2 Consulta o agenda una cita con nuestros expertos.
+        .col-md-3.col-sm-5
+          %br
+          .about-btn
+            %a.btn.btn-feature{"data-toggle" => "modal", "data-target" => "#myModal"} Agenda tu cita
+%section#section-conference.section-padding
+  .container
+    .row
+      .col-md-4.col-sm-4.col-xs-4
+        %a{:href => "http://www.facebook.com/", "target" => "_blank"}
+          .about-box
+            %i.fa.fa-facebook
+      .col-md-4.col-sm-4.col-xs-4
+        %a{:href => "http://www.twitter.com/", "target" => "_blank"}
+          .about-box
+            %i.fa.fa-twitter
+      .col-md-4.col-sm-4.col-xs-4
+        %a{:href => "http://www.linkedin.com/", "target" => "_blank"}
+          .about-box
+            %i.fa.fa-linkedin
+=render('modal_consult')
