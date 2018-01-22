@@ -75,4 +75,4 @@ gem 'jwt'
 
 gem 'rack-cors', :require => 'rack/cors'
 
-gem "paperclip", "~> 5.0.0"
+gem "paperclip", "~> 5.1.0"
